@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>News Letter</title>
+
+    <!-- Bootstrap link -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
+        integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" />
+    <!-- Custom styles for this template -->
+    <link href="css/style.css" rel="stylesheet" />
+</head>
+
+<body class="text-center">
+    <main class="form-signin">
+        <form action="/" method="post">
+            <img class="mb-4" src="images/logo2.jpg" alt="" width="72" height="57" />
+            <h1 class="h3 mb-3 fw-normal">SignUp to My Newsletter!</h1>
+
+            <div class="form-floating">
+                <input type="text" class="form-control firstName"name="firstName" placeholder="First Name" require autofocus />
+            </div>
+            <div class="form-floating">
+                <input type="text" class="form-control lastName" name="lastName" placeholder="First Name" required />
+            </div>
+            <div class="form-floating">
+                <input type="email" class="form-control email" name="email" placeholder="email" required />
+            </div>
+
+            <button class="w-100 btn btn-lg btn-primary" type="submit">
+                SignUp
+            </button>
+            <p class="mt-5 mb-3 text-muted">&copy; Newsletter</p>
+        </form>
+    </main>
+</body>
+
+</html>
